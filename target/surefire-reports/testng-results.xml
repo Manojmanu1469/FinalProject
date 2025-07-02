@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-01T12:39:02 IST" name="Suite" finished-at="2025-07-01T12:39:26 IST" duration-ms="24661">
+    <groups>
+      <group name="Master">
+        <method signature="TC01_registration.acc_registration()[pri:0, instance:TestCases.TC01_registration@12359a82]" name="acc_registration" class="TestCases.TC01_registration"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TestCase02_loginpage.login()[pri:0, instance:TestCases.TestCase02_loginpage@3f91b517]" name="login" class="TestCases.TestCase02_loginpage"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC01_registration.acc_registration()[pri:0, instance:TestCases.TC01_registration@12359a82]" name="acc_registration" class="TestCases.TC01_registration"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2025-07-01T12:39:02 IST" name="Test" finished-at="2025-07-01T12:39:26 IST" duration-ms="24661">
+      <class name="TestCases.TC01_registration">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC01_registration@12359a82]" started-at="2025-07-01T12:39:03 IST" name="setup" finished-at="2025-07-01T12:39:12 IST" duration-ms="9023" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Manu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="acc_registration()[pri:0, instance:TestCases.TC01_registration@12359a82]" started-at="2025-07-01T12:39:12 IST" name="acc_registration" finished-at="2025-07-01T12:39:15 IST" duration-ms="3828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acc_registration -->
+      </class> <!-- TestCases.TC01_registration -->
+      <class name="TestCases.TestCase02_loginpage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TestCase02_loginpage@3f91b517]" started-at="2025-07-01T12:39:15 IST" name="setup" finished-at="2025-07-01T12:39:22 IST" duration-ms="6279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Manu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:TestCases.TestCase02_loginpage@3f91b517]" started-at="2025-07-01T12:39:22 IST" name="login" finished-at="2025-07-01T12:39:26 IST" duration-ms="4730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- TestCases.TestCase02_loginpage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
