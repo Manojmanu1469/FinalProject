@@ -17,9 +17,10 @@
   <parameter name="browser" value="chrome"></parameter>
   <parameter name="owner" value="Manu"></parameter>
     <classes>
-        <class name="TestCases.TC01_registration"/> 
+      <!--  <class name="TestCases.TC01_registration"/> -->
     
-      <class name="TestCases.TestCase02_loginpage"/> 
+       <class name="TestCases.TestCase02_loginpage"/> 
+      <class name="TestCases.TC03_product"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-27T13:15:25 IST" name="Suite" finished-at="2025-06-27T13:15:37 IST" duration-ms="11489">
+  <suite started-at="2025-07-03T19:46:54 IST" name="Suite" finished-at="2025-07-03T19:47:12 IST" duration-ms="17909">
     <groups>
       <group name="Sanity">
-        <method signature="TestCase02_loginpage.login()[pri:0, instance:TestCases.TestCase02_loginpage@40db2a24]" name="login" class="TestCases.TestCase02_loginpage"/>
+        <method signature="TC03_product.products()[pri:0, instance:TestCases.TC03_product@5443d039]" name="products" class="TestCases.TC03_product"/>
+        <method signature="TestCase02_loginpage.login()[pri:0, instance:TestCases.TestCase02_loginpage@bcef303]" name="login" class="TestCases.TestCase02_loginpage"/>
       </group> <!-- Sanity -->
     </groups>
-    <test started-at="2025-06-27T13:15:25 IST" name="Test" finished-at="2025-06-27T13:15:37 IST" duration-ms="11489">
-      <class name="TestCases.TestCase02_loginpage">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TestCase02_loginpage@40db2a24]" started-at="2025-06-27T13:15:26 IST" name="setup" finished-at="2025-06-27T13:15:33 IST" duration-ms="7428" status="PASS">
+    <test started-at="2025-07-03T19:46:54 IST" name="Test" finished-at="2025-07-03T19:47:12 IST" duration-ms="17909">
+      <class name="TestCases.TC03_product">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC03_product@5443d039]" started-at="2025-07-03T19:47:03 IST" name="setup" finished-at="2025-07-03T19:47:09 IST" duration-ms="5415" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,7 +32,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:0, instance:TestCases.TestCase02_loginpage@40db2a24]" started-at="2025-06-27T13:15:33 IST" name="login" finished-at="2025-06-27T13:15:37 IST" duration-ms="3593" status="PASS">
+        <test-method signature="products()[pri:0, instance:TestCases.TC03_product@5443d039]" started-at="2025-07-03T19:47:09 IST" name="products" finished-at="2025-07-03T19:47:12 IST" duration-ms="3024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- products -->
+      </class> <!-- TestCases.TC03_product -->
+      <class name="TestCases.TestCase02_loginpage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TestCase02_loginpage@bcef303]" started-at="2025-07-03T19:46:54 IST" name="setup" finished-at="2025-07-03T19:47:01 IST" duration-ms="6326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Manu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:TestCases.TestCase02_loginpage@bcef303]" started-at="2025-07-03T19:47:01 IST" name="login" finished-at="2025-07-03T19:47:03 IST" duration-ms="2681" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
